@@ -69,5 +69,15 @@ Pour reproduire ces résultats, clonez ce dépôt et installez les dépendances 
 
 ### 1. Cloner le projet
 ```bash
-git clone [https://github.com/VOTRE-NOM-UTILISATEUR/NOM-DU-REPO.git](https://github.com/AnitaBelviane/Data-Analysis.git)
+git clone [https://github.com/AnitaBelviane/Data-Analysis.git](https://github.com/AnitaBelviane/Data-Analysis.git)
 cd Data-Analysis
+```
+
+### 2. Installer les dépendances
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost
+```
+### 3. Lancer le Notebook
+```bash
+jupyter notebook "Classification_Supervisée_ACP.ipynb"
+```
